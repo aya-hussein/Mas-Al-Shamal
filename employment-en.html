@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mass Al Shamal</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"  href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Cairo:400,700,900" rel="stylesheet">
+		<link rel="stylesheet"  href="css/style-en.css">
+	</head>
+	<body>
+
+		<div class="upper-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<nav class="navbar navbar-expand-lg header">
+							<div class="container-fluid">
+								<a class="navbar-brand mr-auto" href="#">
+							  		<img src="images/logo.png">
+							  	</a>
+				
+							  	<button class="navbar-toggler menu-btn" type="button" data-toggle="collapse" data-target="#Mynav" aria-controls="Mynav" aria-expanded="false" aria-label="Toggle navigation">
+							    <i class="fas fa-bars bars"></i>
+							  	</button>
+
+								<div class="collapse navbar-collapse" id="Mynav">
+								   	<ul class="navbar-nav ml-auto home-menu">
+								   		<li class="nav-item">
+								   			<a class="nav-link" href="index-en.html">Home</a>
+								   		</li>
+							   			<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="services-en.html" role="button" aria-haspopup="true" aria-expanded="false">
+										Services
+										<i class="fas fa-angle-down"></i>
+										</a>
+										<div class="dropdown-menu" aria-labelledby="Preview">
+										<a class="dropdown-item" href="services-en.html">Dropdown Link 1</a>
+										<a class="dropdown-item" href="services-en.html">Dropdown Link 2</a>
+										<a class="dropdown-item" href="services-en.html">Dropdown Link 3</a>
+										</div>
+										</li>
+								   		
+								   		<li class="nav-item">
+								   			<a class="nav-link" href="countries-en.html">Available Countries</a>
+								   		</li>
+								   		<li class="nav-item">
+								   			<a class="nav-link" href="employment-en.html">Available Employment</a>
+								   		</li>
+								   		
+										<li class="nav-item">
+								   			<a class="nav-link" href="about-us-en.html">About Us</a>
+								   		</li>
+										<li class="nav-item">
+								   			<a class="nav-link" href="contact-en.html">Contacts</a>
+								   		</li>
+								   		<li class="nav-item">
+								   			<a class="nav-link english" href="index.html">عربي<i class="fas fa-globe"></i></a>
+								   			
+								   		</li>
+								   		
+								    </ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+		                <h4 class="modal-title" id="image-gallery-title"></h4>
+		            </div>
+		            <div class="modal-body">
+		                <img id="image-gallery-image" class="img-responsive" src="">
+		            </div>
+		            <div class="modal-footer">
+
+		                <div class="col-md-2">
+		                    <button type="button" class="btn btn-primary" id="show-previous-image">previous</button>
+		                </div>
+
+		                <div class="col-md-8 text-justify" id="image-gallery-caption">
+		                    
+		                </div>
+
+		                <div class="col-md-2">
+		                    <button type="button" id="show-next-image" class="btn btn-default">next</button>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<div class="employ-content">
+			<div class="container">
+				<p class="employ-title">Available Employment</p>
+				<div id="myBtnContainer">
+				    <button class="btn active" onclick="filterSelection('all')">All</button>
+				    <button class="btn" onclick="filterSelection('Cookers')">Cooker</button>
+				    <button class="btn" onclick="filterSelection('drivers')">Driver</button>
+				    <button class="btn" onclick="filterSelection('housekeepers')">Housekeeper</button>
+				    <button class="btn" onclick="filterSelection('workers')">Worker</button>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="my-container">
+						  	<div class="filterDiv Cookers">
+
+		                    	<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/cooker.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/cooker.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Cooker</p>	
+					            </a>
+
+						  		
+						  	</div>
+						  	<div class="filterDiv Cookers">
+						  		
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/cooker1.png" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/cooker1.png" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Cooker</p>	
+					            </a>
+		                    							  		
+						  	</div>
+						  	<div class="filterDiv drivers">
+						  		
+				                 <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/driver1.jpeg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/driver1.jpeg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Driver</p>	
+					            </a>
+		                    							  		
+						 	</div>
+						  	<div class="filterDiv drivers">
+						  		
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/driver2.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/driver2.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Driver</p>	
+					            </a>
+						  		
+						  		
+						  	</div>
+						 	<div class="filterDiv housekeepers">
+						 		
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/Housekeeper1.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/Housekeeper1.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Housekeeper</p>	
+					            </a>
+						 		
+						  		
+						  	</div>
+						  	<div class="filterDiv housekeepers">
+						  		
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/cooker2.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/cooker2.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Housekeeper</p>	
+					            </a>
+						  		
+						  		
+						  	</div>
+						  	<div class="filterDiv housekeepers">
+						  		
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/Housekeeper3.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/Housekeeper3.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Housekeeper</p>	
+					            </a>
+						  		
+					  			
+						  	</div>
+						  	<div class="filterDiv workers">
+						  		
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/worker1.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/worker1.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Worker</p>	
+					            </a>
+						  		
+						  		
+						  	</div>
+						 
+						  	<div class="filterDiv workers">
+						  		
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/worker2.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/worker2.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Worker</p>	
+					            </a>
+						  		
+						  		
+						  	</div>
+						  	<div class="filterDiv drivers">
+						  		
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/driver2.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/driver2.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Driver</p>	
+					            </a>
+						  		
+						  		
+						  	</div>
+						 	<div class="filterDiv housekeepers">
+						 	
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/Housekeeper1.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/Housekeeper1.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Housekeeper</p>	
+					            </a>
+						 		
+						  		
+						  	</div>
+						  	<div class="filterDiv housekeepers">
+						  		
+				                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-image="images/cooker2.jpg" data-target="#image-gallery">
+					                <img class="img-responsive" src="images/cooker2.jpg" alt="">
+					                <div class="category-name">
+				                	
+					                </div>
+					                <p>Housekeeper</p>	
+					            </a>
+						  		
+						  		
+						  	</div>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+		</div>
+
+
+		<div class="mobile-app">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-7">
+						<p>To Download our application</p>
+					</div>
+					<div class="col-lg-4">
+						<a href="#"><img src="images/play.png"></a>
+						<a href="#"><img src="images/mob-app.png"></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<p class="links">Interested Links</p>
+						<ul class="navbar navbar-nav secondary-menu">
+					   		<li class="nav-item">
+					   			<a class="nav-link" href="index-en.html">Home</a>
+					   		</li>
+				   			<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="services-en.html" role="button" aria-haspopup="true" aria-expanded="false">
+							Services
+							</a>
+							<div class="dropdown-menu" aria-labelledby="Preview">
+							<a class="dropdown-item" href="services-en.html">Dropdown Link 1</a>
+							<a class="dropdown-item" href="services-en.html">Dropdown Link 2</a>
+							<a class="dropdown-item" href="services-en.html">Dropdown Link 3</a>
+							</div>
+							</li>
+					   		
+					   		<li class="nav-item">
+					   			<a class="nav-link" href="countries-en.html">Available Countries</a>
+					   		</li>
+					   		<li class="nav-item">
+					   			<a class="nav-link" href="employment-en.html">Available Employment</a>
+					   		</li>
+					   		
+							<li class="nav-item">
+					   			<a class="nav-link" href="about-us-en.html">About Us</a>
+					   		</li>
+							<li class="nav-item">
+					   			<a class="nav-link" href="contact-en.html">Contacts</a>
+					   		</li>
+					    </ul>
+					</div>
+					<div class="col-lg-4 call-us">
+						<p class="links">Contacts</p>
+						<div class="row">
+							<i class="fas fa-phone fa-flip-horizontal"></i>
+							<p>00 33 55 11</p>
+						</div>
+						<div class="row">
+							<i class="fas fa-map-marker-alt"></i>
+							<p>El-tyaraan Street</p>
+						</div>
+						<div class="row">
+							<i class="fas fa-globe-africa"></i>
+							<p>www.translation.com</p>
+						</div>
+						<div class="row">
+							<div class="col-12 icons">
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+								
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-lg-4 form-section">
+						<p class="question1">Do you </p><p class="question2"> have a Question ?</p>
+						<div class="form-group">
+							<input type="text" autocomplete="off" name="name" placeholder="User name" class="form-control first-input">
+						</div>
+						<div class="form-group">
+							<input type="text" name="e-mail" placeholder="E-mail" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="text" name="subject" placeholder="Subject" class="form-control">
+						</div>
+						<div class="form-group">
+							<textarea id="message" placeholder="Message" class="form-control" rows="4"></textarea>
+						</div>
+						<button type="submit" class="btn">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="final">
+			<div class="container-fluid">
+				<div class="row justify-content-between">
+					<div class="col-12 col-lg-3 copy-right">
+						<p>&copy; All copy rights Reserved</p>
+					</div>
+					
+					<div class="col-12 col-lg-2 design">
+						<p>Designed by</p>
+						<img src="images/arabialogo.png">
+						
+					</div>
+				</div>	
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/proper.js"></script>
+		<script type="text/javascript" src="js/plugin.js"></script>	
+	</body>
+</html>
